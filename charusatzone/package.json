@@ -1,0 +1,17 @@
+{
+  "name": "charusat_zone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix frontend",
+    "server": "nodemon backend/server",
+    "dev": "concurrently run \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.2"
+  }
+}
